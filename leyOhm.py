@@ -1,5 +1,5 @@
 print ('-----------------------')
-print (' Programa de la Ley dee Ohm')
+print (' Programa de la Ley de Ohm')
 print ('-----------------------')
 print (' devby: BPM')
 
@@ -10,7 +10,7 @@ if opcion == 1:
     R = float(input('digite la resistencia:: '))
     V= C * R
 if opcion == 2:
-    C = float(input('digite el corriente: '))
+    C = float(input('digite la corriente: '))
     V= float(input('digite la volteje:: '))
     R= V / C
 if opcion == 3:
@@ -20,5 +20,5 @@ if opcion == 3:
     
 print ('Resultados')
 print (' el voltaje es: ', V, 'voltios')
-print (' La  Corriente es: ',C, ' amperios')
+print (' La  Corriente es: ',"{:.3f}".format(C), ' amperios')
 print (' La  Resistencia  es: ', R, ' ohmios')

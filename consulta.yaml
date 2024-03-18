@@ -1,0 +1,4 @@
+consulta:
+  - "SELECT * FROM salida LIMIT 20;"
+conexion:
+  ruta_db: "ControlDatos.db"  # Replace with your actual database path
